@@ -8,3 +8,6 @@ theorem foo (a : Nat) : a + 1 = Nat.succ a := by
 
 theorem bar (a b : Nat) : a + b = b + a := by
   rw[add_comm]
+
+theorem baz (a b c d : Nat) : a + b + c + d = a + c + d + b := by
+  sorry
